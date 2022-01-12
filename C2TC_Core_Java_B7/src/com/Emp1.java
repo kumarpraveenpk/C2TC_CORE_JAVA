@@ -31,7 +31,11 @@ long contact=7659928288L;
 
 public class Emp1 {
 
-  public static void main(String[] args) {
+  private static String name;
+private static String age;
+private static String contact;
+
+public static void main(String[] args) {
   Emp1 EmployeeDemo = new Emp1();
   System.out.println(Emp1.name + " " + Emp1.age + " " + Emp1.contact  );
   
